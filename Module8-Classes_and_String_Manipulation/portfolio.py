@@ -99,11 +99,11 @@ class ShoppingCart:
 # Part 4 - 
 # Input Section
 
-# customer_name = input('What is your name?:')
-# date = input('What is the date?:')
+customer_name = input('What is your name?:')
+date = input('What is the date?:')
 
-customer_name = "Brennen"
-date = "October 6, 2024"
+# customer_name = "Brennen"
+# date = "October 6, 2024"
 
 item_1 = ItemToPurchase('Nike Romaleos',189,2,'Volt color, Weightlifting shoes')
 item_2 = ItemToPurchase('Chocolate Chips',3,5,'Semi-sweet')

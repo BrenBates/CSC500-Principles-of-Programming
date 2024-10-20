@@ -48,8 +48,8 @@ class ShoppingCart:
         item_found = False
         for item in self.cart_items:
             if item.item_name == ItemToChange:
-                item.item_quantity = NewQuantity
                 print(f'{ItemToChange} quantity successfully changed from {item.item_quantity} to {NewQuantity}.')
+                item.item_quantity = NewQuantity
                 item_found = True
         
         if item_found == False:
@@ -96,12 +96,13 @@ class ShoppingCart:
                 print(f'{item.item_name}: {item.item_description}') 
             
 
-# Part 4 - 
+# Step 7 - In the main section of your code, prompt the user for a customer's name and today's date. Output the name and date. Create an object of type ShoppingCart.
 # Input Section
 
-customer_name = input('What is your name?:')
-date = input('What is the date?:')
-
+customer_name = input("Enter customer's name:")
+date = input("Enter today's date:")
+print(f"Customer name: {customer_name}")
+print(f"Today's date: {date}")
 # customer_name = "Brennen"
 # date = "October 6, 2024"
 
